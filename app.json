@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "delhibook market.in",
+    "slug": "delhibookmarketin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/main_icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.joshua_223.delhibookmarketin"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "entryPoint": "./App.js",
+    "extra": {
+      "eas": {
+        "projectId": "0b4ba89c-aef5-4030-baca-fcec7e490490"
+      }
+    }
+  }
+}
